@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap');
+
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+p {
+  line-height: 30px;
+}
+
+button {
+  padding: 15px 50px;
+  font-size: 17px;
+  border: none;
+}
+
+.nav {
+  background-color: #10103a;
+  display: flex;
+  padding: 40px 50px;
+  justify-content: space-between;
+}
+
+.logo_container {
+  width: 30%;
+  padding-left: 20px;
+}
+
+.page_links_container {
+  width: 50%;
+}
+
+.page_links_container ul li {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.page_links_container ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  padding-bottom: 5px;
+}
+
+.page_links_container ul li a:hover {
+  border-bottom: 2px solid white;
+}
+
+.jumbotron {
+  display: flex;
+  background: #10103a;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 20px;
+}
+
+.jumbotron .content {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.jumbotron .content h1 {
+  color: white;
+  margin: 10px 0px;
+  font-size: 60px;
+}
+
+.jumbotron .content h2 {
+  color: rgb(231, 231, 65);
+  font-size: 40px;
+}
+
+.jumbotron .content p {
+  color: white;
+}
+
+.site_content {
+  text-align: center;
+}
+
+.site_content .content_1 {
+  width: 80%;
+  margin: 50px auto;
+}
+
+.site_content .content_1 p {
+  padding: 0px 30px;
+  font-size: 13px;
+}
+
+.site_content .content_1 button {
+  background: black;
+  color: white;
+}
+
+.site_content .content_2 {
+  background: #10103a;
+  text-align: center;
+  padding: 40px 0px;
+}
+
+.site_content .content_2 h1 {
+  color: white;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.site_content .content_2 p {
+  color: white;
+}
+
+.site_content .content_2 .service_listing {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 40px;
+  width: 90%;
+  margin: 30px auto;
+}
+
+.content_2 .service_listing .service {
+  border: 1px solid white;
+  width: 20%;
+  padding: 30px 30px;
+  border-radius: 20px;
+}
+
+.service_listing .service h2 {
+  color: white;
+}
+
+.service_listing .service .icon_container {
+  width: 30%;
+  margin: 10px auto;
+  padding: 20px 20px;
+  background: white;
+  border-radius: 50%;
+}
+
+.site_content .content_3 {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10%;
+}
+
+.site_content .content_3 p {
+  padding: 10px 40px;
+}
+
+.site_content .content_4 {
+  background: #10103a;
+  text-align: center;
+}
+
+.site_content .content_4 form {
+  width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 30px 30px;
+  border-radius: 20px;
+  position: relative;
+  top: -100px;
+  background: #10103a;
+}
+
+.content_4 form input {
+  padding: 10px;
+  width: 80%;
+  font-size: 16px;
+  margin: 10px 0px;
+  border-radius: 10px;
+}
+
+.content_4 form textarea {
+  font-size: 16px;
+  margin: 10px 0px;
+  border-radius: 10px;
+}
+
+.content_4 form input:last-child {
+  width: 50%;
+  border-radius: 0px;
+  border: none;
+}
+
+.site_content .content_4 h1 {
+  margin: 0px;
+  color: white;
+}
+
+.site_content .content_4 p {
+  color: white;
+  width: 70%;
+  margin: 20px auto;
+}
+
+.content_4 .contact_info {
+  margin: -50px;
+}
+
+.footer {
+  margin-top: 70px;
+  text-align: center;
+}
